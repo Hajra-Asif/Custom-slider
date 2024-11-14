@@ -1,0 +1,74 @@
+
+body {
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.header {
+    border-radius: 0 0 40px 40px;
+}
+
+#mainimg {
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.hero {
+    position: relative;
+}
+
+.next,
+.prev {
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    height: 50px;
+    width: 50px;
+    background-color: #D9EFDE;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.next {
+    right: 20px;
+}
+
+.prev {
+    left: 20px;
+}
+
+.next:hover,
+.prev:hover {
+    cursor: pointer;
+    background-color: #232E26;
+    color: #D9EFDE;
+
+
+}
+
+.img,
+.products img {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 10px;
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.products img:hover {
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    opacity: .6;
+
+}
